@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+    <RelativeLayout
+        android:id="@+id/rolLayout"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/img_ic_magnify"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_magnify"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        
+        <AutoCompleteTextView
+            android:id="@+id/edt_input_search"
+            android:imeOptions="actionSearch"
+            android:background="@null"
+            android:hint="Enter Address"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_ic_magnify"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_ic_gps"
+        android:src="@drawable/ic_gps"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/rolLayout"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:id="@+id/imgvDetail"
+        android:src="@drawable/ic_info"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/rolLayout"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+</RelativeLayout>

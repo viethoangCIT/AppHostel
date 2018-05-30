@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1032686265158",
+    "firebase_url": "https://hostel-a2982.firebaseio.com",
+    "project_id": "hostel-a2982",
+    "storage_bucket": "hostel-a2982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032686265158:android:1611d94e03062205",
+        "android_client_info": {
+          "package_name": "com.example.viethoang.apphostelgooglemaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032686265158-qrj3cnffqdnk380k7finthhtl85oc872.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.viethoang.apphostelgooglemaps",
+            "certificate_hash": "b6572dea738e1fe44a3991e682283bd6c6606a76"
+          }
+        },
+        {
+          "client_id": "1032686265158-h4hkcdcmp87vt2b3nv62e3c94vqjsp57.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1032686265158-h4hkcdcmp87vt2b3nv62e3c94vqjsp57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJPXwDP82QooGHcqwNfGE8x16Bu1T2Ba8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032686265158-h4hkcdcmp87vt2b3nv62e3c94vqjsp57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
