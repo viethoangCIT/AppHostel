@@ -9,4 +9,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_add_hostel">AddHostel</string>
+    <string name="title_map_add_hostel">Chạm vào bản đồ để xác định vị trí nhà trọ</string>
+    <string name="giaphong">Giá phòng:</string>
+    <string name="dientich">Diện tích:</string>
+    <string name="dienthoai">Điện thoại:</string>
+    <string name="hint_giaphong">1500000</string>
+    <string name="hint_dientich">25</string>
+    <string name="hint_dienthoai">0969471274</string>
+    <string name="mota_chitiet">Mô tả chi tiết</string>
+    <string name="thongtin">Thông tin cơ bản</string>
+
 </resources>
